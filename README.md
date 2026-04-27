@@ -46,7 +46,7 @@ password: `vnettap-2025%`
 # Observe
 Log on to `vm1` via Bastion and start the `loop.bat` batch file found on the Desktop. This will poll the web servers on the other VMs, and `ipconfig.io` on the internet, to generate network traffic.
 
-Log on to `vmtarget` via Bastion and install [Wireshark](https://www.wireshark.org/download.html), keeping the installer's default settings. 
+Log on to `vmtarget1` via Bastion and install [Wireshark](https://www.wireshark.org/download.html), keeping the installer's default settings. 
 
 Start Wireshark, enter `udp port 4789` in the Capture filter box and start the capture by clicking the shark's fin in the top left corner.
 
