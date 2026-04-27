@@ -48,7 +48,7 @@ module snatgw 'natgw.bicep' = {
   scope: rg
   params: {
     location: location
-    vnetName: tvnetName
+    vnetName: svnetName
   }
 }
 module svnet 'vnet.bicep' = {
